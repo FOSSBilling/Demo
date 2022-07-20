@@ -13,5 +13,8 @@ If you want to host a public demo, you're also encouraged to join our [Discord](
 ## How it works
 This extension is very simple and it completely relies on hooks/events to function. The extension listens for events that are called before executing critical tasks, like when the user attempts to change system settings. The hook blocks the operation before it gets executed and shows an end-user-friendly error.
 
+## I've accidentally enabled this extension, how do I disable it?
+Due to it's nature, it's not possible to disable this extension using the UI. You have to remove the extension from the `/bb-modules/` directory manually.
+
 ## Licensing
 This extension is released under the Apache v2.0 license. See [LICENSE](https://github.com/FOSSBilling/ext_demo/blob/master/LICENSE) for the full license terms.
