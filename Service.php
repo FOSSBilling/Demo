@@ -78,10 +78,7 @@ class Service
 
     public static function onBeforeAdminClientUpdate(\Box_Event $event)
     {
-        $data = $event->getParameters();
-        if($data['id'] == 1 && $data['email'] != 'client@boxbilling.com') {
-            throw new \Box_Exception(self::err);
-        }
+        throw new \Box_Exception(self::err);
     }
 
     public static function onBeforeAdminClientPasswordChange(\Box_Event $event)
