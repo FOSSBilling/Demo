@@ -19,7 +19,7 @@ namespace Box\Mod\Demo;
 
 class Service
 {
-    const err = 'This option is disabled for demo instances. Visit <a href="https://fossbilling.org/">fossbilling.org</a> for the installation instructions and start using FOSSBilling today.';
+    const err = 'This option is disabled for demo instances. Visit <a href="https://fossbilling.org/" target="_blank">fossbilling.org</a> for the installation instructions and start using FOSSBilling today.';
 
     public function uninstall()
     {
