@@ -1,6 +1,8 @@
 # demo
 FOSSBilling extension to disable critical settings, generally used for public demo instances.
 
+![A demonstration of the error message in the admin_default theme](https://user-images.githubusercontent.com/35808275/180153730-79b4c15e-d386-4e2b-8cee-e2c3822da371.png)
+
 ## Guidelines for hosting a demo
 1. Perform a fresh install of FOSSBilling
 2. Clone this repository to `/bb-modules/Demo/`
