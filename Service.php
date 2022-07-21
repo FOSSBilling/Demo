@@ -105,4 +105,9 @@ class Service
     {
         throw new \Box_Exception(self::err);
     }
+    
+    public static function onBeforeAdminUpdateExtension(\Box_Event $event)
+    {
+        throw new \Box_Exception(self::err);
+    }
 }
