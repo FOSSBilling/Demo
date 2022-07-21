@@ -71,6 +71,11 @@ class Service
         throw new \Box_Exception(self::err);
     }
     
+    public static function onBeforeAdminClientCreate(\Box_Event $event)
+    {
+        throw new \Box_Exception(self::err);
+    }
+
     public static function onBeforeAdminClientDelete(\Box_Event $event)
     {
         throw new \Box_Exception(self::err);
