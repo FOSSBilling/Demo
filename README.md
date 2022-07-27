@@ -19,4 +19,4 @@ This extension is simple. It relies on hooks/events to function. The extension l
 Due to its nature, it's impossible to disable this extension through the admin panel. You should remove the extension from the `/bb-modules/` directory manually.
 
 ## Licensing
-This extension is released under the Apache v2.0 license. See [LICENSE](https://github.com/FOSSBilling/ext_demo/blob/master/LICENSE) for the full license terms.
+This extension is released under the Apache v2.0 license. See [LICENSE](https://github.com/FOSSBilling/demo/blob/master/LICENSE) for the full license terms.
