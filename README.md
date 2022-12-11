@@ -20,3 +20,13 @@ Due to its nature, it's impossible to disable this extension through the admin p
 
 ## Licensing
 This extension is released under the Apache v2.0 license. See [LICENSE](https://github.com/FOSSBilling/demo/blob/master/LICENSE) for the full license terms.
+
+## Changes made to Fossbilling
+
+- Disable functions listed in Service.php
+- Disable logging of ip adress of user(s)
+- Disable sending of email adress
+
+## Notes
+
+- Before activating this plugin we suggest deleting Email registar found in `src/library/Registrar/Adapter/Email.php`
