@@ -91,6 +91,11 @@ class Service
         throw new \Box_Exception(self::err);
     }
     
+    public static function onBeforeClientSignUp(\Box_Event $event)
+    {
+        throw new \Box_Exception(self::err);
+    }
+    
     public static function onBeforeAdminSettingsUpdate(\Box_Event $event)
     {
         throw new \Box_Exception(self::err);
