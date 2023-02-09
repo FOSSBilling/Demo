@@ -120,5 +120,17 @@ class Service
     (\Box_Event $event)
     {
         throw new \Box_Exception(self::err);
-    }    
+    } 
+    
+    public static function onBeforePasswordResetClient
+    (\Box_Event $event)
+    {
+        throw new \Box_Exception(self::err);
+    } 
+    
+    public static function onBeforePasswordResetStaff
+    (\Box_Event $event)
+    {
+        throw new \Box_Exception(self::err);
+    } 
 }
