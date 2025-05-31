@@ -1,8 +1,8 @@
 {
     "id":           "demo",
-	"type":         "mod",
+    "type":         "mod",
     "name":         "Demo",
-    "description":  "Extension to disable critical settings, generally used for public demo instances. ",
+    "description":  "Extension to disable critical settings, generally used for public demo instances.",
     "icon_url":     "icon.png",
     "homepage_url": "https://github.com/FOSSBilling/ext_demo",
     "author":       "FOSSBilling",
