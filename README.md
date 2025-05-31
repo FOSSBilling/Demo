@@ -1,4 +1,4 @@
-# demo
+# Demo
 FOSSBilling extension to disable critical settings, generally used for public demo instances.
 
 ![A demonstration of the error message in the admin_default theme](https://user-images.githubusercontent.com/35808275/180153730-79b4c15e-d386-4e2b-8cee-e2c3822da371.png)
@@ -21,7 +21,7 @@ Due to its nature, it's impossible to disable this extension through the admin p
 ## Licensing
 This extension is released under the Apache v2.0 license. See [LICENSE](https://github.com/FOSSBilling/demo/blob/main/LICENSE) for the full license terms.
 
-## Changes made to Fossbilling
+## Changes made to FOSSBilling
 - Disable functions listed in Service.php
 - Disable logging of the IP addresss of users
 - Disable sending of emails
