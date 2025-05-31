@@ -116,21 +116,23 @@ class Service
         throw new \FOSSBilling\InformationException(self::err);
     }
     
-    public static function onBeforeAdminUpdateConfig
-    (\Box_Event $event)
+    public static function onBeforeAdminUpdateConfig (\Box_Event $event)
     {
         throw new \FOSSBilling\InformationException(self::err);
     } 
     
-    public static function onBeforePasswordResetClient
-    (\Box_Event $event)
+    public static function onBeforePasswordResetClient (\Box_Event $event)
     {
         throw new \FOSSBilling\InformationException(self::err);
     } 
     
-    public static function onBeforePasswordResetStaff
-    (\Box_Event $event)
+    public static function onBeforePasswordResetStaff (\Box_Event $event)
     {
         throw new \FOSSBilling\InformationException(self::err);
-    } 
+    }
+
+    public static function onBeforeThemeSettingsSave (\Box_Event $event)
+    {
+        throw new \FOSSBilling\InformationException(self::err);
+    }
 }
