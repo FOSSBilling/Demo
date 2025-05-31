@@ -5,7 +5,7 @@ FOSSBilling extension to disable critical settings, generally used for public de
 
 ## Guidelines for hosting a demo
 1. Perform a fresh install of FOSSBilling
-2. Clone this repository to `/bb-modules/Demo/`
+2. Clone this repository to `/modules/Demo/`
 3. Navigate to Extensions -> Overview and enable the extension
 4. After enabling the extension, run the cron jobs once (for more details on why you **have to** do it, see https://github.com/FOSSBilling/FOSSBilling/issues/170)
 
@@ -16,17 +16,15 @@ If you want to host a public demo, you're also encouraged to join our [Discord](
 This extension is simple. It relies on hooks/events to function. The extension listens for events that are called before executing critical tasks, like when the user attempts to change system settings. The hook blocks the operation before it gets executed and shows an end-user-friendly error.
 
 ## I've accidentally enabled this extension, how do I disable it?
-Due to its nature, it's impossible to disable this extension through the admin panel. You should remove the extension from the `/bb-modules/` directory manually.
+Due to its nature, it's impossible to disable this extension through the admin panel. You should remove the extension from the `/modules/` directory manually.
 
 ## Licensing
-This extension is released under the Apache v2.0 license. See [LICENSE](https://github.com/FOSSBilling/demo/blob/master/LICENSE) for the full license terms.
+This extension is released under the Apache v2.0 license. See [LICENSE](https://github.com/FOSSBilling/demo/blob/main/LICENSE) for the full license terms.
 
 ## Changes made to Fossbilling
-
 - Disable functions listed in Service.php
-- Disable logging of ip adress of user(s)
-- Disable sending of email adress
+- Disable logging of the IP addresss of users
+- Disable sending of emails
 
 ## Notes
-
-- Before activating this plugin we suggest deleting Email registar found in `src/library/Registrar/Adapter/Email.php`
+- Before activating this plugin we suggest deleting the Email registar adapter found in `src/library/Registrar/Adapter/Email.php`
