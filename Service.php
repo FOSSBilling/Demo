@@ -14,7 +14,9 @@
 
 namespace Box\Mod\Demo;
 
-class Service
+use FOSSBilling\Interfaces\WidgetProviderInterface;
+
+class Service implements WidgetProviderInterface
 {
     const err = 'This option is disabled for demo instances. Visit https://fossbilling.org/ for the installation instructions and start using FOSSBilling today.';
 
@@ -26,6 +28,20 @@ class Service
     public function uninstall(): never
     {
         self::deny();
+    }
+
+    public function getWidgets(): array
+    {
+        return [
+            [
+                'slot' => 'admin.staff.login.form.before',
+                'template' => 'mod_demo_admin_login_credentials',
+            ],
+            [
+                'slot' => 'client.page.login.form.before',
+                'template' => 'mod_demo_client_login_credentials',
+            ],
+        ];
     }
 
     // Extension protections.
