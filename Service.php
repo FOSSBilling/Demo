@@ -171,7 +171,7 @@ class Service implements WidgetProviderInterface
         self::deny();
     }
 
-    public static function onBeforeAdminUpdateConfig(\Box_Event $event): never
+    public static function onBeforeAdminExtensionConfigSave(\Box_Event $event): never
     {
         self::deny();
     }
